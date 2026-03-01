@@ -1,0 +1,14 @@
+
+
+# Training and validation data directories
+train: D:\activities\programing code\yolov8_research\dataset\train
+val: D:\activities\programing code\yolov8_research\dataset\val
+
+# Number of classes
+nc: 3
+
+# Class names
+names:
+  0: SPOT
+  1: CLASS B
+  2: CLASS A

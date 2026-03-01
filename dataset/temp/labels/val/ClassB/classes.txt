@@ -1,0 +1,3 @@
+SPOT
+CLASS B
+CLASS A

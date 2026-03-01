@@ -1,0 +1,19 @@
+description: Ultralytics last model trained on data.yaml
+author: Ultralytics
+date: '2025-04-11T09:23:20.900555'
+version: 8.3.75
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: CLASS A
+  1: CLASS B
+  2: SPOT
+args:
+  batch: 1
+  half: false
