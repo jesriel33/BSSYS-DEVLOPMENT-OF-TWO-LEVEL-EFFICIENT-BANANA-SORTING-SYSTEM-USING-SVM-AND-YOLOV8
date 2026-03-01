@@ -44,4 +44,14 @@ sudo ufw allow 22/tcp
 ```
 sudo ufw status
 ```
+# Install script libraries
+```
+sudo apt install python3 python3-pip python3-venv -y
+python3.12 -m venv env_lib-env
+source env_lib-env/bin/activate
+pip3 install wheel
+pip3 install -r requirements.txt
+deactivate
+exit
+```
 
